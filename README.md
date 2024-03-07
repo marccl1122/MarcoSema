@@ -1,4 +1,4 @@
-# MarcoSema
+# cornerstone-website
 Repository to cover the classwork if the
 Requirements:
 
