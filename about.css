@@ -2,14 +2,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .header {
   display: flex;
   justify-content: center;
-  gap: 0.5em;
+  gap: 0.4em;
   justify-content: space-between;
-  background-color: #2b3776;
+  background-color: #232d5f;
 }
 
 .image {
@@ -22,15 +24,58 @@
   justify-content: space-between;
   list-style: none;
   margin-right: 10em;
-  margin-left: 1em;
+  margin-left: 0.5em;
 }
 .list li {
   margin: 20px;
+  padding: 5px;
+}
+.list li:last-child {
+  text-align: center;
+  margin: 15px;
+  padding-top: 9px;
+  width: 120px;
+  border: 2px solid white;
+  border-color: aliceblue;
 }
 .list a {
   text-decoration: none;
   list-style: none;
-  color: white;
+  color: rgb(242, 233, 233);
+}
+
+.title-area {
+  background-color: #e7e8ee;
+  padding: 40px 0;
+  color: #0f194c;
+  background-image: url(bg-maps.png);
+  background-position: center;
+}
+
+.container h1 {
+  margin-left: 2.4em;
+  margin-top: -20px;
+  line-height: 1.2;
+  font-weight: bold;
+  font-size: 1.9em;
+  letter-spacing: 1px;
+}
+
+.connections {
+  display: flex;
+  margin: 20px;
+  margin-left: 40px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  font-size: 13px;
+  color: #8d8989;
+  text-decoration: none;
+  margin: 4px;
 }
 
 /*# sourceMappingURL=about.css.map */
