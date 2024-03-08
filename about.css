@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+}
+* body {
+  width: 100%;
+  height: 100vh;
+}
+
+#header {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 0.2em;
+  padding: 0.2em;
+  justify-content: space-evenly;
+  background-color: #232d5f;
+  z-index: 100;
+}
+
+.image {
+  margin-left: 1em;
+  margin-top: 0.5em;
+  padding: 10px 5px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-right: 10em;
+  margin-left: 0.5em;
+}
+.list li {
+  margin: 20px;
+  margin-right: 8px;
+  padding: 3px;
+}
+.list li:last-child {
+  text-align: center;
+  margin: 15px;
+  padding-top: 9px;
+  width: 120px;
+  border: 2px solid white;
+  border-color: aliceblue;
+}
+.list a {
+  text-decoration: none;
+  list-style: none;
+  color: rgb(242, 233, 233);
+}
+
+.title-area {
+  position: relative;
+  background-color: #e7e8ee;
+  height: 12.5em;
+  padding: 40px 0;
+  color: #0f194c;
+  background-image: url(bg-maps.png);
+  background-position: center;
+}
+
+.container h1 {
+  margin-left: 3.4em;
+  line-height: 1.2;
+  font-weight: bold;
+  font-size: 1.8em;
+  letter-spacing: 1px;
+  padding-top: 2.9em;
+}
+
+.connections {
+  display: flex;
+  margin-top: 1.5em;
+  margin-left: 5em;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  font-size: 13px;
+  color: #8d8989;
+  text-decoration: none;
+  margin: 4px;
+}
+
+.content-container {
+  max-width: 95%;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2.5em;
+  padding: 2em 5em;
+}
+
+.sidebar-list {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.sidebar-list li {
+  margin-right: 40px;
+  font-size: 1em;
+  margin: 5px;
+  padding: 15px;
+  height: 54px;
+  width: 250px;
+  border: 1px solid rgb(179, 170, 170);
+}
+.sidebar-list li a {
+  font-size: 1.1em;
+  color: #032146;
+  padding: 8px;
+}
+
+.content-area {
+  width: 100%;
+  line-height: 200%;
+}
+.content-area p {
+  margin-top: 10px;
+  margin-left: 30px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #032146;
+}
+.content-area h2 {
+  letter-spacing: 1px;
+}
+.content-area .order-list,
+.content-area a {
+  font-size: 16px;
+  color: #032146;
+  list-style: circle;
+}
+.content-area .heading {
+  margin-top: 1.5em;
+  color: #032146;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.location-container {
+  display: flex;
+}
+
+/*# sourceMappingURL=about.css.map */
