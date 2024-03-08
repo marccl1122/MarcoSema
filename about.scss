@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    gap: 0.5em;
+    justify-content: space-between;
+    background-color: #2b3776;
+}
+.image {
+    margin-left: 3em;
+    padding: 10px 20px;
+}
+.list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-right: 10em;
+    margin-left: 1em;
+    li {
+        margin: 20px;
+    }
+    a {
+        text-decoration: none;
+        list-style: none;
+        color: white;
+    }
+}
